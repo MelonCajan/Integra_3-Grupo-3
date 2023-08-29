@@ -1,13 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import App_button from './button';
+import App_button from './component/button';
+import HomeScreen from './component/inicio';
+import DetailsScreen from './component/navbar';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hola mundo</Text>
       <StatusBar style="auto" />
-      <Image source={require('./assets/asesoria.png')} style={{ width: '50%', height: '15%', borderTopLeftRadius: 25, borderTopRightRadius: 25 }} />
+      <HomeScreen />
+      <DetailsScreen />
+      <Image source={require('./assets/asesoria1.png')} style={{ width: '50%', height: '15%', borderTopLeftRadius: 25, borderTopRightRadius: 25 }} />
       <App_button />
     </View>
   );
