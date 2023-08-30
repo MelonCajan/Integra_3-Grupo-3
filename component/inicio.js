@@ -1,14 +1,12 @@
 import * as React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text } from 'react-native';
+import App_button from './button';
 
-function HomeScreen({ navigation }) {
+function HomeScreen() {
   return (
     <View>
-      <Text>Home Screen</Text>
-      <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate('Details')}
-      />
+      
+      <App_button></App_button>
     </View>
   );
 }
