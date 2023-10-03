@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { View, Text, Button, Alert } from 'react-native';
 import { AsyncStorage } from 'react-native';
@@ -83,6 +84,17 @@ const CalendarScreen = () => {
     <View>
       <Text>Calendar Screen</Text>
       {/* Puedes agregar más elementos aquí, como botones o información adicional */}
+=======
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import App_button from './button';
+
+function HomeScreen() {
+  return (
+    <View>
+      
+      <App_button></App_button>
+>>>>>>> avalenzuela
     </View>
   );
 };
