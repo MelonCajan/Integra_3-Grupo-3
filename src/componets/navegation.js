@@ -15,6 +15,7 @@ const frasesAleatorias = [
   '¿Cómo estás? ¿Hay algo específico de lo que te gustaría hablar?',
   '¡Hola! ¿En qué puedo asistirte?',
   'Estoy aquí para ayudarte. ¿Tienes alguna pregunta?',
+  'que rico que estes aqui',
   // Agrega más frases según sea necesario
 ];
 
